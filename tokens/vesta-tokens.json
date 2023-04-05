@@ -1,9 +1,1248 @@
 {
-  "global": {},
+  "core": {
+    "border": {
+      "radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "base": {
+          "value": "4px",
+          "type": "borderRadius",
+          "description": "Use this as the default border radius width."
+        },
+        "focus": {
+          "value": "6px",
+          "type": "borderRadius",
+          "description": "Use this as the default focus border radius width."
+        },
+        "lg": {
+          "value": "8px",
+          "type": "borderRadius",
+          "description": "Use this border radius for big umbrella UI elements."
+        },
+        "circle": {
+          "value": "9999px",
+          "type": "borderRadius",
+          "description": "Use this for creating pill shaped chips and similar."
+        }
+      },
+      "width": {
+        "base": {
+          "value": "1px",
+          "type": "borderWidth",
+          "description": "Use this as the default border width."
+        },
+        "thick": {
+          "value": "2px",
+          "type": "borderWidth",
+          "description": "Use this exceptional for bolder border width."
+        },
+        "thicker": {
+          "value": "4px",
+          "type": "borderWidth",
+          "description": "Use this ticker border width for selected indications as eg in the tab navigation."
+        }
+      }
+    },
+    "color": {
+      "type": "color",
+      "grey": {
+        "50": {
+          "value": "#fafafa"
+        },
+        "100": {
+          "value": "#f2f2f2"
+        },
+        "200": {
+          "value": "#eaeaea"
+        },
+        "300": {
+          "value": "#dbdbdb"
+        },
+        "400": {
+          "value": "#bcbcbc"
+        },
+        "500": {
+          "value": "#9d9d9d"
+        },
+        "600": {
+          "value": "#7e7e7e"
+        },
+        "700": {
+          "value": "#5f5f5f"
+        },
+        "800": {
+          "value": "#404040"
+        },
+        "900": {
+          "value": "#212121"
+        }
+      },
+      "red": {
+        "50": {
+          "value": "#f7edee"
+        },
+        "100": {
+          "value": "#f3d2d3"
+        },
+        "200": {
+          "value": "#f7a6a9"
+        },
+        "300": {
+          "value": "#f66c71"
+        },
+        "400": {
+          "value": "#e93c43"
+        },
+        "500": {
+          "value": "#db0e16",
+          "description": "This is our official brand color"
+        },
+        "600": {
+          "value": "#a80209"
+        },
+        "700": {
+          "value": "#830409"
+        },
+        "800": {
+          "value": "#5f0508"
+        },
+        "900": {
+          "value": "#2b0001"
+        }
+      },
+      "teal": {
+        "50": {
+          "value": "#e6f7f7"
+        },
+        "100": {
+          "value": "#c2e9e8"
+        },
+        "200": {
+          "value": "#a1dbda"
+        },
+        "300": {
+          "value": "#6fbfbe"
+        },
+        "400": {
+          "value": "#46a4a2"
+        },
+        "500": {
+          "value": "#258987",
+          "description": "This is our accent color."
+        },
+        "600": {
+          "value": "#0d6e6c"
+        },
+        "700": {
+          "value": "#075856"
+        },
+        "800": {
+          "value": "#034240"
+        },
+        "900": {
+          "value": "#002b2b"
+        }
+      },
+      "blue": {
+        "50": {
+          "value": "#f0f6fc"
+        },
+        "100": {
+          "value": "#cee5fc"
+        },
+        "200": {
+          "value": "#add4fb"
+        },
+        "300": {
+          "value": "#76b2ed"
+        },
+        "400": {
+          "value": "#4593e0"
+        },
+        "500": {
+          "value": "#1976d2"
+        },
+        "600": {
+          "value": "#0f5ca8"
+        },
+        "700": {
+          "value": "#08437f"
+        },
+        "800": {
+          "value": "#032c55"
+        },
+        "900": {
+          "value": "#00162b"
+        }
+      },
+      "tomato": {
+        "50": {
+          "value": "#fcedeb"
+        },
+        "100": {
+          "value": "#fed6d0"
+        },
+        "200": {
+          "value": "#ffbeb5"
+        },
+        "300": {
+          "value": "#f59183"
+        },
+        "400": {
+          "value": "#e96555"
+        },
+        "500": {
+          "value": "#de3d2b"
+        },
+        "600": {
+          "value": "#b12b1a"
+        },
+        "700": {
+          "value": "#851c0d"
+        },
+        "800": {
+          "value": "#581004"
+        },
+        "900": {
+          "value": "#2b0700"
+        }
+      },
+      "orange": {
+        "50": {
+          "value": "#fff0e6"
+        },
+        "100": {
+          "value": "#ffe1c7"
+        },
+        "200": {
+          "value": "#ffd0a7"
+        },
+        "300": {
+          "value": "#ffad70"
+        },
+        "400": {
+          "value": "#fb8c3c"
+        },
+        "500": {
+          "value": "#f46c0b"
+        },
+        "600": {
+          "value": "#c25507"
+        },
+        "700": {
+          "value": "#903e03"
+        },
+        "800": {
+          "value": "#5e2801"
+        },
+        "900": {
+          "value": "#46423f"
+        }
+      },
+      "green": {
+        "50": {
+          "value": "#edfaee"
+        },
+        "100": {
+          "value": "#ceecd0"
+        },
+        "200": {
+          "value": "#b2deb4"
+        },
+        "300": {
+          "value": "#82c385"
+        },
+        "400": {
+          "value": "#59a95d"
+        },
+        "500": {
+          "value": "#388e3c"
+        },
+        "600": {
+          "value": "#237527"
+        },
+        "700": {
+          "value": "#125d16"
+        },
+        "800": {
+          "value": "#07440a"
+        },
+        "900": {
+          "value": "#002b02"
+        }
+      },
+      "white": {
+        "value": "#ffffff"
+      },
+      "black": {
+        "value": "#000000"
+      }
+    },
+    "depth": {
+      "1": {
+        "value": "1"
+      },
+      "100": {
+        "value": "100"
+      },
+      "200": {
+        "value": "200"
+      },
+      "300": {
+        "value": "300"
+      },
+      "400": {
+        "value": "400"
+      },
+      "type": "other"
+    },
+    "duration": {
+      "type": "other",
+      "instantly": {
+        "value": "0s"
+      },
+      "quickly": {
+        "value": "0.1s"
+      },
+      "default": {
+        "value": "0.2s"
+      },
+      "slowly": {
+        "value": "0.4s"
+      }
+    },
+    "elevation": {
+      "100": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "5px",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.15)",
+          "type": "dropShadow"
+        }
+      },
+      "200": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "10px",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.15)",
+          "type": "dropShadow"
+        }
+      },
+      "300": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "15px",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.15)",
+          "type": "dropShadow"
+        }
+      },
+      "type": "boxShadow"
+    },
+    "font": {
+      "family": {
+        "value": "'Roboto', 'Helvetica', 'Arial', sans-serif",
+        "type": "fontFamilies",
+        "description": "Roboto is the default font family used in the user interface of all our applications."
+      },
+      "weight": {
+        "regular": {
+          "value": 400,
+          "type": "fontWeights",
+          "description": "Use regular as default font weight for body text."
+        },
+        "bold": {
+          "value": 500,
+          "type": "fontWeights",
+          "description": "Use bold as default font weight for titles and to emphasis parts of the body text."
+        }
+      },
+      "size": {
+        "4xl": {
+          "value": "4rem",
+          "type": "fontSizes",
+          "description": "Use this for H1 headings on kiosk."
+        },
+        "2xl": {
+          "value": "2rem",
+          "type": "fontSizes",
+          "description": "Use this for H2 headings on kiosk."
+        },
+        "xl": {
+          "value": "1.5rem",
+          "type": "fontSizes",
+          "description": "Use this for H1 headings."
+        },
+        "lg": {
+          "value": "1.25rem",
+          "type": "fontSizes",
+          "description": "Use this for H2 headings."
+        },
+        "md": {
+          "value": "1rem",
+          "type": "fontSizes",
+          "description": "Use this as base font size as well as H3 headings."
+        },
+        "sm": {
+          "value": "0.875rem",
+          "type": "fontSizes",
+          "description": "Use this as small font size as well as small headings."
+        },
+        "xs": {
+          "value": "0.75rem",
+          "type": "fontSizes",
+          "description": "Use this for labels or captions, never for important information."
+        }
+      },
+      "letter": {
+        "type": "letterSpacing",
+        "spacing": {
+          "default": {
+            "value": "0",
+            "description": "Use this as default letter spacing."
+          },
+          "relaxed": {
+            "value": "0.75px",
+            "description": "Use this as relaxed letter spacing for text in capitals, like on buttons."
+          }
+        }
+      }
+    },
+    "line": {
+      "type": "lineHeights",
+      "height": {
+        "xl": {
+          "value": "32px",
+          "description": "Combine this line height with font-size-xl."
+        },
+        "lg": {
+          "value": "24px",
+          "description": "Combine this line height with font-size-lg or font-size-md for long copy."
+        },
+        "md": {
+          "value": "20px",
+          "description": "Combine this line height with font-size-md or font-size-sm for long copy."
+        },
+        "sm": {
+          "value": "16px",
+          "description": "Combine this line height with font-size-sm."
+        },
+        "xs": {
+          "value": "14px",
+          "description": "Combine this line height with font-size-xs or font-size-sm in capital letters."
+        }
+      }
+    },
+    "opacity": {
+      "base": {
+        "value": "0.38",
+        "type": "opacity"
+      },
+      "strong": {
+        "value": "0.6",
+        "type": "opacity"
+      }
+    },
+    "size": {
+      "50": {
+        "value": "8px"
+      },
+      "100": {
+        "value": "16px"
+      },
+      "125": {
+        "value": "20px"
+      },
+      "150": {
+        "value": "24px"
+      },
+      "175": {
+        "value": "28px"
+      },
+      "200": {
+        "value": "32px"
+      },
+      "300": {
+        "value": "48px"
+      },
+      "400": {
+        "value": "64px"
+      },
+      "500": {
+        "value": "80px"
+      },
+      "type": "sizing"
+    },
+    "spacing": {
+      "0": {
+        "value": "0px"
+      },
+      "25": {
+        "value": "2px"
+      },
+      "50": {
+        "value": "4px"
+      },
+      "75": {
+        "value": "6px",
+        "description": "Use only exceptionally within components."
+      },
+      "100": {
+        "value": "8px"
+      },
+      "150": {
+        "value": "12px"
+      },
+      "200": {
+        "value": "16px"
+      },
+      "300": {
+        "value": "24px"
+      },
+      "400": {
+        "value": "32px"
+      },
+      "500": {
+        "value": "40px"
+      },
+      "600": {
+        "value": "48px"
+      },
+      "800": {
+        "value": "64px"
+      },
+      "type": "spacing"
+    }
+  },
+  "semantic": {
+    "color": {
+      "background": {
+        "type": "color",
+        "base": {
+          "value": "{color.white}",
+          "description": "This is our default background. Also use for the background of elements that appear to have no background in a resting state, such as subtle buttons and menu items."
+        },
+        "hover": {
+          "value": "{color.grey.50}",
+          "description": "Use for the default background in a hovered state."
+        },
+        "active": {
+          "value": "{color.grey.100}",
+          "description": "Use for the default background in an active state."
+        },
+        "selected": {
+          "value": "{color.grey.200}",
+          "description": "Use for the default background in a selected state."
+        },
+        "disabled": {
+          "value": "{color.grey.300}",
+          "description": "Use for default backgrounds in a disabled state."
+        },
+        "surface": {
+          "base": {
+            "value": "{color.grey.100}",
+            "description": "A secondary background for the UI commonly used for grouping items, such as cards, tabs navigation, filter bar or the column right."
+          },
+          "hover": {
+            "value": "{color.grey.200}",
+            "description": "Use for the background on surfaces in a hovered state."
+          },
+          "active": {
+            "value": "{color.grey.300}",
+            "description": "Use for the background on surfaces in an active state."
+          },
+          "weak": {
+            "base": {
+              "value": "{color.grey.50}",
+              "description": "Use for the background on surfaces that need little emphasis, such as the header of tables."
+            },
+            "hover": {
+              "value": "{color.grey.100}",
+              "description": "Use for the background on weak surfaces in a hovered state."
+            },
+            "active": {
+              "value": "{color.grey.200}",
+              "description": "Use for the background on weak surfaces in an active state."
+            }
+          },
+          "strong": {
+            "base": {
+              "value": "{color.grey.200}",
+              "description": "Use for the background on surfaces that need extra emphasis, such as the navigation bar."
+            },
+            "hover": {
+              "value": "{color.grey.300}",
+              "description": "Use for the background on strong surfaces in a hovered state."
+            },
+            "active": {
+              "value": "{color.grey.400}",
+              "description": "Use for the background on strong surfaces in an active state."
+            }
+          }
+        },
+        "neutral": {
+          "base": {
+            "value": "{color.grey.300}",
+            "description": "Use for backgrounds of small UI elements, such as chips."
+          },
+          "hover": {
+            "value": "{color.grey.400}",
+            "description": "Use for backgrounds of small UI elements in a hovered state."
+          },
+          "active": {
+            "value": "{color.grey.500}",
+            "description": "Use for backgrounds of small UI elements in an active state."
+          },
+          "selected": {
+            "value": "{color.grey.400}",
+            "description": "Use for backgrounds of small UI elements in a selected state."
+          },
+          "strong": {
+            "value": "{color.grey.700}",
+            "description": "Use for strong backgrounds of small UI elements, such as tooltips."
+          }
+        },
+        "brand": {
+          "base": {
+            "value": "{color.red.600}",
+            "description": "Use for backgrounds of primary buttons."
+          },
+          "hover": {
+            "value": "{color.red.700}",
+            "description": "Use for backgrounds of primary buttons in a hovered state."
+          },
+          "active": {
+            "value": "{color.red.800}",
+            "description": "Use for backgrounds of primary buttons in an active state."
+          },
+          "selected": {
+            "value": "{color.red.500}",
+            "description": "Use for backgrounds of primary buttons in a selected state."
+          },
+          "subtle": {
+            "hover": {
+              "value": "{color.red.50}",
+              "description": "Use for backgrounds of secondary and text buttons in a hovered state."
+            },
+            "active": {
+              "value": "{color.red.100}",
+              "description": "Use for backgrounds of secondary and text buttons in an active state."
+            }
+          }
+        },
+        "error": {
+          "value": "{color.tomato.600}",
+          "description": "Use for background in error messaging and other critical occasion."
+        },
+        "success": {
+          "value": "{color.green.600}",
+          "description": "Use for background in success messages and to communicate a favourable outcome."
+        },
+        "warning": {
+          "value": "{color.orange.600}",
+          "description": "Use for background in warning messages and occasion emphasizing caution."
+        },
+        "info": {
+          "value": "{color.blue.500}",
+          "description": "Use for background in info messages or to communicate something is new."
+        },
+        "archive": {
+          "value": "{color.grey.700}",
+          "description": "Use for background in archive messages or to communicate something is no longer relevant."
+        },
+        "input": {
+          "base": {
+            "value": "{color.grey.200}",
+            "description": "Use for background of form UI elements, such as text fields."
+          },
+          "active": {
+            "value": "{color.grey.400}",
+            "description": "Use for backgrounds of form UI elements in an active state."
+          },
+          "hover": {
+            "value": "{color.grey.300}",
+            "description": "Use for backgrounds of form UI elements in a hovered state."
+          },
+          "disabled": {
+            "value": "{color.grey.100}",
+            "description": "Use for backgrounds of form UI elements in a disabled state."
+          }
+        },
+        "checked": {
+          "base": {
+            "value": "{color.teal.500}",
+            "description": "Use for backgrounds of form UI elements in checked state."
+          },
+          "hover": {
+            "value": "{color.teal.600}",
+            "description": "Use for backgrounds of form UI elements in checked state."
+          },
+          "active": {
+            "value": "{color.teal.700}",
+            "description": "Use for backgrounds of form UI elements in checked state."
+          },
+          "error": {
+            "value": "{color.tomato.600}",
+            "description": "Use for backgrounds of form UI elements in checked error state."
+          },
+          "disabled": {
+            "value": "{color.grey.500}",
+            "description": "Use for backgrounds of form UI elements in a checked disabled state."
+          }
+        }
+      },
+      "blanket": {
+        "type": "color",
+        "overlay": {
+          "value": "rgba(0, 0, 0, 0.38)",
+          "ignoreUseRefValue": true,
+          "modify": {
+            "type": "alpha",
+            "amount": "0.38"
+          },
+          "description": "Use for the screen overlay that appears with modal dialogs."
+        },
+        "loading": {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "ignoreUseRefValue": true,
+          "modify": {
+            "type": "alpha",
+            "amount": "0.6"
+          },
+          "description": "Use for the screen overlay that appears with loading states."
+        }
+      },
+      "border": {
+        "type": "color",
+        "base": {
+          "value": "{color.grey.300}",
+          "description": "Use to visually group or separate UI elements, such as flat cards or side panel dividers."
+        },
+        "strong": {
+          "value": "{color.grey.500}",
+          "description": "Use as a stronger seperator when the base border isn't sufficient."
+        },
+        "focus": {
+          "value": "{color.blue.400}",
+          "description": "Use for focus rings of elements in a focus state."
+        },
+        "error": {
+          "value": "{color.tomato.600}",
+          "description": "Use for borders indicating errors and other critical occasion."
+        },
+        "disabled": {
+          "value": "{color.grey.500}",
+          "description": "Use for borders of elements in a disabled state."
+        },
+        "brand": {
+          "base": {
+            "value": "{color.red.600}",
+            "description": "Use for borders of primary buttons."
+          },
+          "hover": {
+            "value": "{color.red.700}",
+            "description": "Use for borders of primary buttons in a hovered state."
+          },
+          "active": {
+            "value": "{color.red.800}",
+            "description": "Use for borders of primary buttons in an active state."
+          }
+        },
+        "input": {
+          "base": {
+            "value": "{color.grey.700}",
+            "description": "Use for borders of form UI elements, such as text fields, checkboxes, and radio buttons."
+          },
+          "focus": {
+            "value": "{color.border.focus}",
+            "description": "Use for borders of form UI elements in a focus state."
+          },
+          "hover": {
+            "value": "{color.teal.600}",
+            "description": "Use for borders of form UI elements in an active state."
+          },
+          "active": {
+            "value": "{color.teal.500}",
+            "description": "Use for borders of form UI elements in an active state."
+          },
+          "disabled": {
+            "value": "{color.grey.500}",
+            "description": "Use for borders of form UI elements in a disabled state."
+          },
+          "error": {
+            "value": "{color.tomato.600}",
+            "description": "Use for borders of form UI elements in an error state."
+          }
+        }
+      },
+      "icon": {
+        "type": "color",
+        "base": {
+          "value": "{color.grey.900}",
+          "description": "Use for icons paired with color-text-base."
+        },
+        "weak": {
+          "value": "{color.grey.700}",
+          "description": "Use for default standalone icons as well as paired with color-text-weak."
+        },
+        "success": {
+          "value": "{color.green.600}",
+          "description": "Use for icons in success messages and to communicate a favourable outcome."
+        },
+        "warning": {
+          "value": "{color.orange.600}",
+          "description": "Use for icons in warning messages and occasion emphasizing caution."
+        },
+        "error": {
+          "value": "{color.tomato.600}",
+          "description": "Use for icons in error messaging and other critical occasion."
+        },
+        "info": {
+          "value": "{color.blue.600}",
+          "description": "Use for icons in info messages or to communicate something is new."
+        },
+        "archive": {
+          "value": "{color.grey.700}",
+          "description": "Use for icons in archive messages or to communicate something is no longer relevant."
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "description": "Use for icons on bold backgrounds."
+        },
+        "disabled": {
+          "value": "{color.grey.500}",
+          "description": "Use for icons in a disabled state."
+        },
+        "checked": {
+          "value": "{color.teal.500}",
+          "description": "Use for icons in a checked state as in the switch component."
+        },
+        "brand": {
+          "base": {
+            "value": "{color.red.600}",
+            "description": "Use for icons paired with color-text-brand."
+          },
+          "hover": {
+            "value": "{color.red.700}",
+            "description": "Use for icons paired with color-text-brand in hovered state."
+          },
+          "active": {
+            "value": "{color.red.800}",
+            "description": "Use for icons paired with color-text-brand in active state."
+          },
+          "bold": {
+            "value": "{color.red.500}",
+            "description": "Use for icons that reinforce our brand in the original honeycomb red."
+          }
+        }
+      },
+      "link": {
+        "type": "color",
+        "base": {
+          "value": "{color.teal.600}",
+          "description": "Use for links in a default state."
+        },
+        "hover": {
+          "value": "{color.teal.700}",
+          "description": "Use for links in a hovered state. Add an underline for hovered states."
+        },
+        "active": {
+          "value": "{color.teal.800}",
+          "description": "Use for links in a active state."
+        }
+      },
+      "text": {
+        "type": "color",
+        "base": {
+          "value": "{color.grey.900}",
+          "description": "Used for the main text color throughout the UI."
+        },
+        "weak": {
+          "value": "{color.grey.700}",
+          "description": "Use for secondary text, such as labels, navigation,  tabs, and supporting texts."
+        },
+        "disabled": {
+          "value": "{color.grey.500}",
+          "description": "Use for text in a disabled state."
+        },
+        "hover": {
+          "value": "{color.black}",
+          "description": "Use for text in a hovered state."
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "description": "Use for text on strong backgrounds."
+        },
+        "error": {
+          "value": "{color.tomato.600}",
+          "description": "Use for text in error messaging and other critical text."
+        },
+        "warning": {
+          "value": "{color.orange.600}",
+          "description": "Use for text in warning messages and text emphasizing caution."
+        },
+        "success": {
+          "value": "{color.green.600}",
+          "description": "Use for text in success messages and to communicate a favourable outcome.."
+        },
+        "info": {
+          "value": "{color.blue.600}",
+          "description": "Use for text in info messages or to communicate something is new."
+        },
+        "archive": {
+          "value": "{color.grey.700}",
+          "description": "Use for text in archive messages or to communicate something is no longer relevant."
+        },
+        "brand": {
+          "base": {
+            "value": "{color.red.600}",
+            "description": "Use for text that reinforces our brand. Also used for action items such as buttons."
+          },
+          "hover": {
+            "value": "{color.red.700}",
+            "description": "Use for text on action items in hover state."
+          },
+          "active": {
+            "value": "{color.red.800}",
+            "description": "Use for text on action items in active state."
+          }
+        },
+        "accent": {
+          "base": {
+            "value": "{color.teal.600}",
+            "description": "Use still needs to be defined."
+          }
+        }
+      }
+    },
+    "size": {
+      "checkbox": {
+        "value": "{size.125}",
+        "type": "sizing",
+        "description": "Use this to define the checkbox size height and width."
+      },
+      "button": {
+        "value": "{size.200}",
+        "type": "sizing",
+        "description": "Use this to define the button size height and width."
+      },
+      "input": {
+        "value": "{size.300}",
+        "type": "sizing",
+        "description": "Use this to define the input size height."
+      },
+      "icon": {
+        "type": "sizing",
+        "sm": {
+          "value": "{size.100}",
+          "description": "Use this sizing token for smaller icons."
+        },
+        "md": {
+          "value": "{size.150}",
+          "description": "Use this default sizing token for most icons in components."
+        },
+        "lg": {
+          "value": "{size.175}",
+          "description": "Use this sizing token for bigger icons."
+        }
+      },
+      "chip": {
+        "value": "{size.150}",
+        "type": "sizing",
+        "description": "Use this to define the chip size height."
+      },
+      "switch": {
+        "type": "sizing",
+        "width": {
+          "value": "{size.300}",
+          "description": "Use this to define the switch size width."
+        },
+        "height": {
+          "value": "{size.175}",
+          "description": "Use this to define the switch size height."
+        }
+      }
+    },
+    "spacing": {
+      "inline": {
+        "25": {
+          "value": "{spacing.25}",
+          "type": "spacing",
+          "description": "Use this inline as horizontal spacing as seperator of small text."
+        },
+        "50": {
+          "value": "{spacing.50}",
+          "type": "spacing",
+          "description": "Use this inline as horizontal spacing for elements within a component."
+        },
+        "100": {
+          "value": "{spacing.100}",
+          "type": "spacing",
+          "description": "Use this inline as tight horizontal spacing between components with a strong relation."
+        },
+        "200": {
+          "value": "{spacing.200}",
+          "type": "spacing",
+          "description": "Use this inline as default horizontal spacing between components."
+        },
+        "300": {
+          "value": "{spacing.300}",
+          "type": "spacing",
+          "description": "Use this inline as horizontal spacing between component groups."
+        },
+        "400": {
+          "value": "{spacing.400}",
+          "type": "spacing",
+          "description": "Use this inline as spacious horizontal spacing between main sections."
+        },
+        "600": {
+          "value": "{spacing.600}",
+          "type": "spacing",
+          "description": "Use this inline as spacious horizontal spacing for text sections."
+        }
+      },
+      "stack": {
+        "50": {
+          "type": "spacing",
+          "value": "{spacing.50}",
+          "description": "Use this stack as tight vertical spacing between labels in form components."
+        },
+        "100": {
+          "value": "{spacing.100}",
+          "description": "Use this stack as tight vertical spacing between components with a strong relation."
+        },
+        "200": {
+          "value": "{spacing.200}",
+          "description": "Use this stack as default vertical spacing between components."
+        },
+        "300": {
+          "value": "{spacing.300}",
+          "description": "Use this stack as vertical spacing between component groups."
+        },
+        "400": {
+          "value": "{spacing.400}",
+          "description": "Use this stack as vertical spacing between sections."
+        },
+        "600": {
+          "value": "{spacing.600}",
+          "description": "Use this stack as spacious vertical spacing between main sections."
+        },
+        "type": "spacing"
+      },
+      "inset": {
+        "25": {
+          "value": "{spacing.25}",
+          "description": "Use this padding for justify spacing in eg container elements."
+        },
+        "50": {
+          "value": "{spacing.50}",
+          "description": "Use this padding for justify spacing in eg container elements."
+        },
+        "75": {
+          "value": "{spacing.75}",
+          "description": "Use this padding for justify spacing in eg container elements."
+        },
+        "100": {
+          "value": "{spacing.100}",
+          "description": "Use this default padding for small components like a button."
+        },
+        "150": {
+          "value": "{spacing.150}",
+          "description": "Use this padding for alignment in components such as the checkbox field"
+        },
+        "200": {
+          "value": "{spacing.200}",
+          "description": "Use this padding for components and elements on a card or a surface."
+        },
+        "300": {
+          "value": "{spacing.300}",
+          "description": "Use this padding exceptionally for bigger components and elements on a card."
+        },
+        "type": "spacing",
+        "stretch": {
+          "50": {
+            "type": "spacing",
+            "value": "{spacing.50} {spacing.100}",
+            "description": "Use this smaller stretched padding for compact components like chips."
+          },
+          "100": {
+            "type": "spacing",
+            "value": "{spacing.100} {spacing.200}",
+            "description": "Use this stretched padding for components like menu or navigation items and filled input fields."
+          },
+          "150": {
+            "type": "spacing",
+            "value": "{spacing.150} {spacing.300}",
+            "description": "Use this spacious stretched padding for eg  table items."
+          }
+        }
+      }
+    }
+  },
+  "composite": {
+    "typography": {
+      "Heading 1": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.xl}",
+          "lineHeight": "{line.height.xl}"
+        },
+        "type": "typography"
+      },
+      "Heading 2": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.lg}",
+          "lineHeight": "{line.height.lg}"
+        },
+        "type": "typography"
+      },
+      "Heading 3": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.md}",
+          "lineHeight": "{line.height.md}"
+        },
+        "type": "typography"
+      },
+      "Heading 4": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{line.height.sm}"
+        },
+        "type": "typography"
+      },
+      "Heading 5": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{line.height.sm}"
+        },
+        "type": "typography"
+      },
+      "Heading 6": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{line.height.sm}"
+        },
+        "type": "typography"
+      },
+      "Body": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "fontSize": "{font.size.md}",
+          "lineHeight": "{line.height.md}"
+        },
+        "type": "typography"
+      },
+      "Body small": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{line.height.sm}"
+        },
+        "type": "typography"
+      },
+      "Body xsmall": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "fontSize": "{font.size.xs}",
+          "lineHeight": "{line.height.xs}"
+        },
+        "type": "typography"
+      },
+      "Body bold": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.md}",
+          "lineHeight": "{line.height.md}"
+        },
+        "type": "typography"
+      },
+      "Body small bold": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{line.height.sm}"
+        },
+        "type": "typography"
+      },
+      "Action": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{line.height.sm}",
+          "letterSpacing": "{font.letter.spacing.relaxed}",
+          "textCase": "uppercase"
+        },
+        "type": "typography"
+      },
+      "Label medium": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "fontSize": "{font.size.md}",
+          "lineHeight": "{line.height.sm}"
+        },
+        "type": "typography"
+      },
+      "Label small": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{line.height.sm}"
+        },
+        "type": "typography"
+      },
+      "Label xsmall": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "fontSize": "{font.size.xs}",
+          "lineHeight": "{line.height.xs}"
+        },
+        "type": "typography"
+      },
+      "Link small hover": {
+        "value": {
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{line.height.sm}",
+          "textDecoration": "underline"
+        },
+        "type": "typography"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "core",
+      "semantic",
+      "composite"
     ]
   }
 }
