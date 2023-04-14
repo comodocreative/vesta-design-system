@@ -147,34 +147,34 @@
       },
       "blue": {
         "50": {
-          "value": "#f0f6fc"
+          "value": "#f1efff"
         },
         "100": {
-          "value": "#cee5fc"
+          "value": "#e2dffe"
         },
         "200": {
-          "value": "#add4fb"
+          "value": "#d5cfff"
         },
         "300": {
-          "value": "#76b2ed"
+          "value": "#baafff"
         },
         "400": {
-          "value": "#4593e0"
+          "value": "#977cfd"
         },
         "500": {
-          "value": "#1976d2"
+          "value": "#7942f5"
         },
         "600": {
-          "value": "#0f5ca8"
+          "value": "#6c00ef"
         },
         "700": {
-          "value": "#08437f"
+          "value": "#5901c7"
         },
         "800": {
-          "value": "#032c55"
+          "value": "#3c0090"
         },
         "900": {
-          "value": "#00162b"
+          "value": "#250159"
         }
       },
       "tomato": {
@@ -278,6 +278,54 @@
       },
       "black": {
         "value": "#000000"
+      },
+      "purple": {
+        "50": {
+          "value": "#f7edfd",
+          "type": "color"
+        },
+        "100": {
+          "value": "#f2daff",
+          "type": "color"
+        },
+        "200": {
+          "value": "#eac8fd",
+          "type": "color"
+        },
+        "300": {
+          "value": "#dea2fd",
+          "type": "color"
+        },
+        "400": {
+          "value": "#d78dff",
+          "type": "color"
+        },
+        "500": {
+          "value": "#b902fd",
+          "type": "color"
+        },
+        "600": {
+          "value": "#9800d2",
+          "type": "color"
+        },
+        "700": {
+          "value": "#7400a1",
+          "type": "color"
+        },
+        "800": {
+          "value": "#520073",
+          "type": "color"
+        },
+        "900": {
+          "value": "#320048",
+          "type": "color"
+        }
+      },
+      "linear": {
+        "500": {
+          "value": "linear-gradient(90deg, #b902fd 0%, #6c00ef 100%)",
+          "type": "color"
+        }
       }
     },
     "depth": {
